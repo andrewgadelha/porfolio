@@ -187,7 +187,7 @@ export default function App() {
             >
               <a
                 target="_blank"
-                href="public/andrewgadelha.pdf"
+                href="/andrewgadelha.pdf"
                 rel="nooper noreferrer"
               >
                 Currículo
