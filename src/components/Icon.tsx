@@ -244,7 +244,7 @@ const loadSprite = async (): Promise<string | null> => {
   if (spriteCache) return spriteCache;
   
   try {
-    const response = await fetch('src/assets/sprite.svg');
+    const response = await fetch('/sprite.svg');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     spriteCache = await response.text();
     return spriteCache;

@@ -187,7 +187,7 @@ export default function App() {
             >
               <a
                 target="_blank"
-                href="src\assets\andrewgadelha.pdf"
+                href="public/andrewgadelha.pdf"
                 rel="nooper noreferrer"
               >
                 Currículo
@@ -264,7 +264,7 @@ export default function App() {
               >
                 <Image
                   rounded="0"
-                  src="src\assets\profile.jpg"
+                  src="public\profile.jpg"
                   alt="Andrew Gadelha"
                 />
               </FrameIcon>
@@ -538,7 +538,7 @@ export default function App() {
             >
               <Image
                 rounded="0"
-                src="src\assets\projeto1.png"
+                src="public\projeto1.png"
                 w={"90%"}
                 h={"100%"}
                 pt={"5%"}
@@ -661,7 +661,7 @@ export default function App() {
             >
               <Image
                 rounded="0"
-                src="src\assets\projeto2.png"
+                src="public\projeto2.png"
                 w={"90%"}
                 h={"100%"}
                 pt={"5%"}
