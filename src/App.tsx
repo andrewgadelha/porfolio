@@ -264,7 +264,7 @@ export default function App() {
               >
                 <Image
                   rounded="0"
-                  src="public\profile.jpg"
+                  src="/profile.jpg"
                   alt="Andrew Gadelha"
                 />
               </FrameIcon>
@@ -538,7 +538,7 @@ export default function App() {
             >
               <Image
                 rounded="0"
-                src="public\projeto1.png"
+                src="/projeto1.png"
                 w={"90%"}
                 h={"100%"}
                 pt={"5%"}
@@ -661,7 +661,7 @@ export default function App() {
             >
               <Image
                 rounded="0"
-                src="public\projeto2.png"
+                src="/projeto2.png"
                 w={"90%"}
                 h={"100%"}
                 pt={"5%"}
