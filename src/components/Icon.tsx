@@ -23,12 +23,6 @@ interface IconBaseProps extends Omit<HTMLStyledProps<'svg'>, 'color'> {
   children?: React.ReactNode;
 }
 
-const BREAKPOINTS = {
-  sm: 640,
-  md: 768,
-  lg: 1024,
-  xl: 1280
-} as const;
 
 const RawIcon = forwardRef<SVGSVGElement, IconBaseProps>(({ 
   iconName, 
