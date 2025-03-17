@@ -89,7 +89,7 @@ export default function App() {
           gridTemplateRows={"1fr 1fr 1fr 1fr 1fr 1fr"}
           position={"relative"}
           bgColor={"#3D17E8"}
-          h={{ base: "vh", lg: "100vh" }}
+          h={{ base: "95vh", lg: "vh" }}
           p={4}
           zIndex={0}
         >
